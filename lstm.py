@@ -44,7 +44,7 @@ X = np.reshape(X, (X.shape[0], X.shape[1], 1))
 
 # Create Streamlit app
 def main():
-    st.title("LSTM Model Deployment")
+    st.title("Gold Forecasting")
     st.write('Enter the required parameters and click "Predict" to see the forecast.')
 
     start_date = st.date_input('Start Date', value=df.index.min())
